@@ -9,16 +9,18 @@ namespace Calculator
 {
     public class Calculate
     {
-        public decimal a;
-        public decimal b;
-        public string op;
+        public decimal a { get; set;}
+        public decimal b { get; set;}
+        public string op { get; set;}
 
-        public Calculate() 
+        public Calculate() { op = string.Empty; }
+
+        public Calculate(decimal a, decimal b, string op)
         {
-            a = 0;
-            b = 0;
-            op = string.Empty;
-        }
+            this.a = a;
+            this.b = b;
+            this.op = op;
+        }   
          
         public decimal add(decimal a, decimal b)
         {
