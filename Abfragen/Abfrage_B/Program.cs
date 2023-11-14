@@ -2,33 +2,15 @@
 using Calculator;
 
 internal class Program
-{ 
-    public static void Main(string[] args)
+{
+    private static decimal GetValidInpt()
     {
-        Calculate calc = new Calculate();
+        decimal number = 0;
         while (true)
         {
             try
             {
-                Console.WriteLine("Gib eine Zahl ein:");
-                calc.a = decimal.Parse(Console.ReadLine());
-
-                break;
-            }
-            catch (Exception ex) when 
-            (ex is FormatException || ex is ArgumentNullException || ex is OverflowException)
-            {
-                Console.WriteLine(ex);
-            }
-        }
-
-        while (true)
-        {
-            try
-            {
-                Console.WriteLine("Gib noch eine Zahl ein:");
-                calc.b = decimal.Parse(Console.ReadLine());
-
+                number = decimal.Parse(Console.ReadLine());
                 break;
             }
             catch (Exception ex) when
@@ -37,6 +19,17 @@ internal class Program
                 Console.WriteLine(ex);
             }
         }
+        return number;
+    }
+    public static void Main(string[] args)
+    {
+        Calculate calc = new Calculate();
+
+        Console.WriteLine("Gib eine Zahl ein:");
+        calc.a = GetValidInpt();
+        
+        Console.WriteLine("Gib noch eine Zahl ein:");
+        calc.b = GetValidInpt();
 
         Console.WriteLine("Rechenoperator eingeben:");
         calc.op = Console.ReadLine();
@@ -74,7 +67,6 @@ internal class Program
                     }
 
                     Console.WriteLine($"Ergebnis: {calc.divide(calc.a, calc.b)}");
-
                     break;
 
                 case "modulo":
