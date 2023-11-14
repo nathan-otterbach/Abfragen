@@ -21,6 +21,7 @@ internal class Program
         }
         return number;
     }
+
     public static void Main(string[] args)
     {
         Calculate calc = new Calculate();
