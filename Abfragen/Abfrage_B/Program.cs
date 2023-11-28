@@ -3,34 +3,16 @@ using Calculator;
 
 internal class Program
 {
-    private static decimal GetValidInpt()
-    {
-        decimal number = 0;
-        while (true)
-        {
-            try
-            {
-                number = decimal.Parse(Console.ReadLine());
-                break;
-            }
-            catch (Exception ex) when
-            (ex is FormatException || ex is ArgumentNullException || ex is OverflowException)
-            {
-                Console.WriteLine(ex);
-            }
-        }
-        return number;
-    }
-
     public static void Main(string[] args)
     {
         Calculate calc = new Calculate();
+        UserInput input = new UserInput();
 
         Console.WriteLine("Gib eine Zahl ein:");
-        calc.n1 = GetValidInpt();
+        calc.n1 = input.getValidUserInput();
         
         Console.WriteLine("Gib noch eine Zahl ein:");
-        calc.n2 = GetValidInpt();
+        calc.n2 = input.getValidUserInput();
 
         Console.WriteLine("Rechenoperator eingeben:");
         calc.op = Console.ReadLine();

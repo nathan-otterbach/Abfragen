@@ -48,7 +48,7 @@ namespace Calculator
             if (b == 0) { throw new DivideByZeroException(); }
             if (decimal.MaxValue < a / b) { throw new OverflowException(); }
 
-            return a / b;
+            return Math.Round(a / b, 4);
         }
 
         public int modulo(decimal a, decimal b)
