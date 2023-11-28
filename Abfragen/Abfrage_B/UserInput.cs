@@ -29,7 +29,7 @@ namespace Calculator
 
         public UserInput() { }
 
-        public decimal getValidUserInput()
+        public decimal getValidUserInput_dec()
         {
             while (true)
             {
@@ -45,6 +45,24 @@ namespace Calculator
                 }
             }
             return _decimal;
+        }
+
+        public decimal getValidUserInput_int()
+        {
+            while (true)
+            {
+                try
+                {
+                    _int = int.Parse(Console.ReadLine());
+                    break;
+                }
+                catch (Exception ex) when
+                (ex is FormatException || ex is ArgumentNullException || ex is OverflowException)
+                {
+                    Console.WriteLine(ex);
+                }
+            }
+            return _int;
         }
     }
 }

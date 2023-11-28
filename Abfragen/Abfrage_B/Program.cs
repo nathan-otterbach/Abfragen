@@ -9,13 +9,27 @@ internal class Program
         UserInput input = new UserInput();
 
         Console.WriteLine("Gib eine Zahl ein:");
-        calc.n1 = input.getValidUserInput();
-        
-        Console.WriteLine("Gib noch eine Zahl ein:");
-        calc.n2 = input.getValidUserInput();
+        calc.n1 = input.getValidUserInput_int();
 
-        Console.WriteLine("Rechenoperator eingeben:");
-        calc.op = Console.ReadLine();
+        Console.WriteLine(calc.getMonth((uint)calc.n1));
+
+        //if (calc.isPrime((uint)calc.n1))
+        //{
+        //    Console.WriteLine("prime");
+        //}
+        //else
+        //{
+        //    Console.WriteLine("not prime");
+        //}
+
+        //Console.WriteLine("Gib eine Zahl ein:");
+        //calc.n1 = input.getValidUserInput();
+        
+        //Console.WriteLine("Gib noch eine Zahl ein:");
+        //calc.n2 = input.getValidUserInput();
+
+        //Console.WriteLine("Rechenoperator eingeben:");
+        //calc.op = Console.ReadLine();
 
         if (!string.IsNullOrEmpty(calc.op))
         {

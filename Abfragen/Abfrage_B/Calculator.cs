@@ -65,5 +65,49 @@ namespace Calculator
         {
             return (decimal)Math.Pow((double)a, (double)b);
         }
+
+        public bool isPrime(uint number)
+        {
+            if (number <= 1) { return false; }
+            if (number == 2) { return true; }
+            if (number % 2 == 0) { return false; }
+
+            for (int i = 3; i <= Math.Sqrt(number); i += 2)
+            {
+                if (number % i == 0) { return false; }
+            }
+
+            return true;
+        }
+
+        public string getMonth(uint number)
+        {
+            switch (number)
+            {
+                case 1: return "January";
+                case 2: return "February";
+                case 3: return "March";
+                case 4: return "April";
+                case 5: return "May";
+                case 6: return "June";
+                case 7: return "July";
+                case 8: return "August";
+                case 9: return "September";
+                case 10: return "October";
+                case 11: return "November";
+                case 12: return "December";
+                default: return "Error";
+            }
+        }
+
+        public string getName(string a)
+        {
+            switch (a)
+            {
+                case "d": 
+                case "D": return "Daniel";
+                default: return "Error";
+            }
+        }
     }
 }
