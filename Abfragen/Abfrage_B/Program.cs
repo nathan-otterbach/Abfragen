@@ -1,84 +1,178 @@
-﻿using System;
-using Calculator;
-
-internal class Program
+﻿namespace Calculator
 {
-    public static void Main(string[] args)
+    internal class Program
     {
-        Calculate calc = new Calculate();
-        UserInput input = new UserInput();
-
-        Console.WriteLine("Gib eine Zahl ein:");
-        calc.n1 = input.getValidUserInput_int();
-
-        Console.WriteLine(calc.getMonth((uint)calc.n1));
-
-        //if (calc.isPrime((uint)calc.n1))
-        //{
-        //    Console.WriteLine("prime");
-        //}
-        //else
-        //{
-        //    Console.WriteLine("not prime");
-        //}
-
-        //Console.WriteLine("Gib eine Zahl ein:");
-        //calc.n1 = input.getValidUserInput();
-        
-        //Console.WriteLine("Gib noch eine Zahl ein:");
-        //calc.n2 = input.getValidUserInput();
-
-        //Console.WriteLine("Rechenoperator eingeben:");
-        //calc.op = Console.ReadLine();
-
-        if (!string.IsNullOrEmpty(calc.op))
+        public static void Main(string[] args)
         {
-            switch (calc.op.ToLower())
+            ICalculator calc = new Calculator(); // Creating an instance of the Calculator class
+
+            while (true)
+            {
+                Console.WriteLine("Select an option:");
+                Console.WriteLine("1. Perform calculations");
+                Console.WriteLine("2. Check if a number is prime");
+                Console.WriteLine("3. Get month name based on a number");
+                Console.WriteLine("0. Exit");
+                Console.WriteLine(Environment.NewLine);
+
+                int choice;
+                while (!int.TryParse(Console.ReadLine(), out choice) || choice < 0 || choice > 3)
+                {
+                    Console.WriteLine("Invalid choice. Please enter a valid option.");
+                }
+
+                switch (choice)
+                {
+                    case 1:
+                        PerformCalculations(calc);
+                        break;
+                    case 2:
+                        CheckPrime(calc);
+                        break;
+                    case 3:
+                        GetMonth(calc);
+                        break;
+                    case 0:
+                        return;
+                }
+            }
+        }
+
+        private static void PerformCalculations(ICalculator calculator)
+        {
+            string operationChoice = "";
+
+            while (true)
+            {
+                operationChoice = Console.ReadLine()?.ToLower();
+                if (IsValidOperation(operationChoice))
+                {
+                    break;
+                }
+                Console.WriteLine("Invalid choice. Please enter a valid operation.");
+            }
+
+            IUserInput<decimal> decimalInput = new UserInput<decimal>(
+                () => decimal.Parse(Console.ReadLine()), // Parsing method for int input
+                "Enter an decimal value: ",
+                "Error while parsing integer input"
+            );
+
+            decimal number1 = decimalInput.GetValidInput();
+            decimal number2 = decimalInput.GetValidInput();
+            decimal result = 0;
+
+            switch (operationChoice)
             {
                 case "addieren":
                 case "add":
                 case "+":
-                    Console.WriteLine($"Ergebnis: {calc.add(calc.n1, calc.n2)}");
+                    result = calculator.Add(number1, number2);
                     break;
-
                 case "subtrahieren":
                 case "subtract":
                 case "-":
-                    Console.WriteLine($"Ergebnis: {calc.subtract(calc.n1, calc.n2)}");
+                    result = calculator.Subtract(number1, number2);
                     break;
-
                 case "multiplizieren":
                 case "multiply":
                 case "*":
-                    Console.WriteLine($"Ergebnis: {calc.multiply(calc.n1, calc.n2)}");
+                    result = calculator.Multiply(number1, number2);
                     break;
-
                 case "dividieren":
                 case "divide":
                 case ":":
                 case "/":
-                    Console.WriteLine($"Ergebnis: {calc.divide(calc.n1, calc.n2)}");
+                    result = calculator.Divide(number1, number2);
                     break;
-
                 case "modulo":
                 case "%":
-                    Console.WriteLine($"Ergebnis: {calc.modulo(calc.n1, calc.n2)}");
+                    result = calculator.Modulo(number1, number2);
                     break;
-
                 case "logarithmus":
                 case "log":
-                    Console.WriteLine($"Ergebnis: {calc.logarithmus(calc.n1, calc.n2)}");
+                    result = calculator.Logarithm(number1, number2);
                     break;
-
                 case "power":
                 case "pow":
                 case "^":
-                    Console.WriteLine($"Ergebnis: {calc.power(calc.n1, calc.n2)}");
-                    break;
-
-                default: Console.WriteLine($"Invalid operator");
+                    result = calculator.Power(number1, number2);
                     break;
             }
+
+            Console.WriteLine($"Result of the operation: {result}");
+            Console.WriteLine(Environment.NewLine);
+        }
+
+        // Additional helper method to validate the operation choice
+        private static bool IsValidOperation(string operation)
+        {
+            switch (operation)
+            {
+                case "addieren":
+                case "add":
+                case "+":
+                case "subtrahieren":
+                case "subtract":
+                case "-":
+                case "multiplizieren":
+                case "multiply":
+                case "*":
+                case "dividieren":
+                case "divide":
+                case ":":
+                case "/":
+                case "modulo":
+                case "%":
+                case "logarithmus":
+                case "log":
+                case "power":
+                case "pow":
+                case "^":
+                    return true;
+                default:
+                    return false;
+            }
+        }
+
+
+        private static void CheckPrime(ICalculator calculator)
+        {
+            // Check if a number is prime based on user input
+            IUserInput<ulong> ulongInput = new UserInput<ulong>(
+                () => ulong.Parse(Console.ReadLine()), // Parsing method for int input
+                "Enter an ulong value: ",
+                "Error while parsing integer input"
+            );
+
+            ulong number = ulongInput.GetValidInput();
+
+            // Check if the number is prime using the calculator method
+            // Example:
+            bool isPrime = calculator.IsPrime(number);
+
+            Console.WriteLine($"Is {number} a prime number? {isPrime}");
+            Console.WriteLine(Environment.NewLine);
+        }
+
+        private static void GetMonth(ICalculator calculator)
+        {
+            // Get the month name based on user input
+            // Example:
+            IUserInput<byte> byteInput = new UserInput<byte>(
+                () => byte.Parse(Console.ReadLine()), // Parsing method for uint input
+                "Enter a byte value: ",
+                "Error while parsing unsigned integer input"
+            );
+
+            byte number = byteInput.GetValidInput();
+
+            // Get the month name using the calculator method
+            // Example:
+            string month = calculator.GetMonth(number);
+
+            Console.WriteLine($"Month for number {number}: {month}");
+            Console.WriteLine(Environment.NewLine);
         }
     }
 }

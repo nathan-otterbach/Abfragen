@@ -1,86 +1,128 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Calculator
+﻿namespace Calculator
 {
-    public class Calculate
+    // Interface defining the calculator operations
+    public interface ICalculator
     {
-        public decimal n1 { get; set;}
-        public decimal n2 { get; set;}
-        public string op { get; set;}
+        decimal Add(decimal a, decimal b);          // Addition operation
+        decimal Subtract(decimal a, decimal b);     // Subtraction operation
+        decimal Multiply(decimal a, decimal b);     // Multiplication operation
+        decimal Divide(decimal a, decimal b);       // Division operation
+        int Modulo(decimal a, decimal b);           // Modulo operation
+        decimal Logarithm(decimal a, decimal b);    // Logarithm operation
+        decimal Power(decimal a, decimal b);        // Exponentiation operation
+        bool IsPrime(ulong number);                  // Check if number is prime
+        string GetMonth(byte number);               // Get month name based on number
+    }
 
-        public Calculate() { op = string.Empty; }
-
-        public Calculate(decimal a, decimal b, string op)
+    // Class implementing the calculator operations
+    public class Calculator : ICalculator
+    {
+        // Addition operation
+        public decimal Add(decimal a, decimal b)
         {
-            this.n1 = a;
-            this.n2 = b;
-            this.op = op;
-        }   
-         
-        public decimal add(decimal a, decimal b)
-        {
-            if (decimal.MaxValue < a + b) { throw new OverflowException(); }
-
-            return a + b;
+            checked
+            {
+                return a + b;
+            }
         }
 
-        public decimal subtract(decimal a, decimal b)
+        // Subtraction operation
+        public decimal Subtract(decimal a, decimal b)
         {
-            if (decimal.MaxValue < a - b) { throw new OverflowException(); }
-
-            return a - b;
+            checked
+            {
+                return a - b;
+            }
         }
 
-        public decimal multiply(decimal a, decimal b)
+        // Multiplication operation
+        public decimal Multiply(decimal a, decimal b)
         {
-            if (decimal.MaxValue < a * b) { throw new OverflowException(); }
-
-            return a * b;
+            checked
+            {
+                return a * b;
+            }
         }
 
-        public decimal divide(decimal a, decimal b)
+        // Division operation
+        public decimal Divide(decimal a, decimal b)
         {
-            if (b == 0) { throw new DivideByZeroException(); }
-            if (decimal.MaxValue < a / b) { throw new OverflowException(); }
+            if (b == 0)
+            {
+                throw new ArgumentException("Division by zero.");
+            }
 
-            return Math.Round(a / b, 4);
+            checked
+            {
+                return a / b;
+            }
         }
 
-        public int modulo(decimal a, decimal b)
+        // Modulo operation
+        public int Modulo(decimal a, decimal b)
         {
-            return (int)a % (int)b;
+            if (b == 0)
+            {
+                throw new ArgumentException("Divisor cannot be zero.");
+            }
+
+            checked
+            {
+                return (int)a % (int)b;
+            }
         }
 
-        public decimal logarithmus(decimal a, decimal b)
+        // Logarithm operation
+        public decimal Logarithm(decimal a, decimal b)
         {
+            if (a <= 0 || b <= 0 || a == 1)
+            {
+                throw new ArgumentException("Logarithm base and number must be positive and not equal to 1.");
+            }
+
             return (decimal)Math.Log((double)a, (double)b);
-        }   
+        }
 
-        public decimal power(decimal a, decimal b)
+        // Exponentiation operation
+        public decimal Power(decimal a, decimal b)
         {
+            if ((a == 0 && b <= 0) || (a < 0 && b != Math.Truncate(b)))
+            {
+                throw new ArgumentException("Invalid operation: base cannot be zero when exponent is zero or negative, and negative base cannot have a non-integer exponent.");
+            }
+
             return (decimal)Math.Pow((double)a, (double)b);
         }
 
-        public bool isPrime(uint number)
+        // Check if number is prime
+        public bool IsPrime(ulong number)
         {
-            if (number <= 1) { return false; }
-            if (number == 2) { return true; }
-            if (number % 2 == 0) { return false; }
-
-            for (int i = 3; i <= Math.Sqrt(number); i += 2)
+            if (number <= 1)
             {
-                if (number % i == 0) { return false; }
+                return false;
+            }
+            if (number <= 3)
+            {
+                return true;
+            }
+            if (number % 2 == 0 || number % 3 == 0)
+            {
+                return false;
             }
 
+            // Prime checking for numbers of the form 6k ± 1 up to square root of the number
+            for (uint i = 5; i * i <= number; i += 6)
+            {
+                if (number % i == 0 || number % (i + 2) == 0)
+                {
+                    return false;
+                }
+            }
             return true;
         }
 
-        public string getMonth(uint number)
+        // Get month name based on number
+        public string GetMonth(byte number)
         {
             switch (number)
             {
@@ -96,16 +138,6 @@ namespace Calculator
                 case 10: return "October";
                 case 11: return "November";
                 case 12: return "December";
-                default: return "Error";
-            }
-        }
-
-        public string getName(string a)
-        {
-            switch (a)
-            {
-                case "d": 
-                case "D": return "Daniel";
                 default: return "Error";
             }
         }

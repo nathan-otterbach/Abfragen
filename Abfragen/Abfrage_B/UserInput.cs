@@ -1,68 +1,53 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Calculator
+﻿namespace Calculator
 {
-    public class UserInput
+    // Interface defining a contract for getting valid user input of type T
+    public interface IUserInput<T>
     {
-        private bool _bool;
+        T GetValidInput(); // Method signature for obtaining valid input of type T
+    }
 
-        private sbyte _sbyte;
+    // Class implementing the IUserInput interface for handling user input of type T
+    public class UserInput<T> : IUserInput<T>
+    {
+        private readonly Func<T> _parseMethod; // Delegate for parsing input of type T
+        private readonly string _inputMessage; // Message displayed for user input
+        private readonly string _errorMessage; // Error message displayed on input failure
 
-        private decimal _decimal;
-        private double _double;
-        private float _float;
-
-
-        private int _int;
-        private short _short;
-
-        private byte _byte;
-        private ushort _ushort;
-        private uint _uint;
-        private ulong _ulong;
-
-        private string _string;
-
-        public UserInput() { }
-
-        public decimal getValidUserInput_dec()
+        // Constructor initializing the UserInput object
+        public UserInput(Func<T> parseMethod, string inputMessage, string errorMessage)
         {
-            while (true)
-            {
-                try
-                {
-                    _decimal = decimal.Parse(Console.ReadLine());
-                    break;
-                }
-                catch (Exception ex) when
-                (ex is FormatException || ex is ArgumentNullException || ex is OverflowException)
-                {
-                    Console.WriteLine(ex);
-                }
-            }
-            return _decimal;
+            _parseMethod = parseMethod ?? throw new ArgumentNullException(nameof(parseMethod));
+            _inputMessage = inputMessage ?? throw new ArgumentNullException(nameof(inputMessage));
+            _errorMessage = errorMessage ?? throw new ArgumentNullException(nameof(errorMessage));
         }
 
-        public decimal getValidUserInput_int()
+        // Method to get valid user input of type T
+        public T GetValidInput()
         {
             while (true)
             {
                 try
                 {
-                    _int = int.Parse(Console.ReadLine());
-                    break;
+                    Console.Write(_inputMessage); // Prompting the user for input
+                    return _parseMethod(); // Attempting to parse the user input of type T
                 }
-                catch (Exception ex) when
-                (ex is FormatException || ex is ArgumentNullException || ex is OverflowException)
+                catch (FormatException)
                 {
-                    Console.WriteLine(ex);
+                    Console.WriteLine("Invalid input format. Please enter a valid value.");
+                }
+                catch (ArgumentNullException)
+                {
+                    Console.WriteLine("Input cannot be null. Please enter a valid value.");
+                }
+                catch (OverflowException)
+                {
+                    Console.WriteLine("Input exceeds the valid range. Please enter a valid value.");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"{_errorMessage}: {ex.Message}"); // Displaying custom error message
                 }
             }
-            return _int;
         }
     }
 }
