@@ -26,3 +26,17 @@ C:\Users\Nathan\source\repos\Abfragen\Abfragen\Abfrage_B\obj\Debug\net6.0\refint
 C:\Users\Nathan\source\repos\Abfragen\Abfragen\Abfrage_B\obj\Debug\net6.0\Calculator.pdb
 C:\Users\Nathan\source\repos\Abfragen\Abfragen\Abfrage_B\obj\Debug\net6.0\Calculator.genruntimeconfig.cache
 C:\Users\Nathan\source\repos\Abfragen\Abfragen\Abfrage_B\obj\Debug\net6.0\ref\Calculator.dll
+H:\Infomatik\Abfragen\Abfragen\Abfrage_B\bin\Debug\net6.0\Calculator.exe
+H:\Infomatik\Abfragen\Abfragen\Abfrage_B\bin\Debug\net6.0\Calculator.deps.json
+H:\Infomatik\Abfragen\Abfragen\Abfrage_B\bin\Debug\net6.0\Calculator.runtimeconfig.json
+H:\Infomatik\Abfragen\Abfragen\Abfrage_B\bin\Debug\net6.0\Calculator.dll
+H:\Infomatik\Abfragen\Abfragen\Abfrage_B\bin\Debug\net6.0\Calculator.pdb
+H:\Infomatik\Abfragen\Abfragen\Abfrage_B\obj\Debug\net6.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+H:\Infomatik\Abfragen\Abfragen\Abfrage_B\obj\Debug\net6.0\Calculator.AssemblyInfoInputs.cache
+H:\Infomatik\Abfragen\Abfragen\Abfrage_B\obj\Debug\net6.0\Calculator.AssemblyInfo.cs
+H:\Infomatik\Abfragen\Abfragen\Abfrage_B\obj\Debug\net6.0\Calculator.csproj.CoreCompileInputs.cache
+H:\Infomatik\Abfragen\Abfragen\Abfrage_B\obj\Debug\net6.0\Calculator.dll
+H:\Infomatik\Abfragen\Abfragen\Abfrage_B\obj\Debug\net6.0\refint\Calculator.dll
+H:\Infomatik\Abfragen\Abfragen\Abfrage_B\obj\Debug\net6.0\Calculator.pdb
+H:\Infomatik\Abfragen\Abfragen\Abfrage_B\obj\Debug\net6.0\Calculator.genruntimeconfig.cache
+H:\Infomatik\Abfragen\Abfragen\Abfrage_B\obj\Debug\net6.0\ref\Calculator.dll

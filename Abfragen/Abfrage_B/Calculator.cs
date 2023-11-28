@@ -9,42 +9,51 @@ namespace Calculator
 {
     public class Calculate
     {
-        public decimal a { get; set;}
-        public decimal b { get; set;}
+        public decimal n1 { get; set;}
+        public decimal n2 { get; set;}
         public string op { get; set;}
 
         public Calculate() { op = string.Empty; }
 
         public Calculate(decimal a, decimal b, string op)
         {
-            this.a = a;
-            this.b = b;
+            this.n1 = a;
+            this.n2 = b;
             this.op = op;
         }   
          
         public decimal add(decimal a, decimal b)
         {
+            if (decimal.MaxValue < a + b) { throw new OverflowException(); }
+
             return a + b;
         }
 
         public decimal subtract(decimal a, decimal b)
         {
+            if (decimal.MaxValue < a - b) { throw new OverflowException(); }
+
             return a - b;
         }
 
         public decimal multiply(decimal a, decimal b)
         {
+            if (decimal.MaxValue < a * b) { throw new OverflowException(); }
+
             return a * b;
         }
 
         public decimal divide(decimal a, decimal b)
         {
+            if (b == 0) { throw new DivideByZeroException(); }
+            if (decimal.MaxValue < a / b) { throw new OverflowException(); }
+
             return a / b;
         }
 
-        public int modulo(int a, int b)
+        public int modulo(decimal a, decimal b)
         {
-            return a % b;
+            return (int)a % (int)b;
         }
 
         public decimal logarithmus(decimal a, decimal b)
