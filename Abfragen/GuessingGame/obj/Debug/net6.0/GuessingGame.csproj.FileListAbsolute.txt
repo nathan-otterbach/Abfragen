@@ -1,0 +1,14 @@
+H:\Infomatik\Abfragen\Abfragen\GuessingGame\bin\Debug\net6.0\GuessingGame.exe
+H:\Infomatik\Abfragen\Abfragen\GuessingGame\bin\Debug\net6.0\GuessingGame.deps.json
+H:\Infomatik\Abfragen\Abfragen\GuessingGame\bin\Debug\net6.0\GuessingGame.runtimeconfig.json
+H:\Infomatik\Abfragen\Abfragen\GuessingGame\bin\Debug\net6.0\GuessingGame.dll
+H:\Infomatik\Abfragen\Abfragen\GuessingGame\bin\Debug\net6.0\GuessingGame.pdb
+H:\Infomatik\Abfragen\Abfragen\GuessingGame\obj\Debug\net6.0\GuessingGame.GeneratedMSBuildEditorConfig.editorconfig
+H:\Infomatik\Abfragen\Abfragen\GuessingGame\obj\Debug\net6.0\GuessingGame.AssemblyInfoInputs.cache
+H:\Infomatik\Abfragen\Abfragen\GuessingGame\obj\Debug\net6.0\GuessingGame.AssemblyInfo.cs
+H:\Infomatik\Abfragen\Abfragen\GuessingGame\obj\Debug\net6.0\GuessingGame.csproj.CoreCompileInputs.cache
+H:\Infomatik\Abfragen\Abfragen\GuessingGame\obj\Debug\net6.0\GuessingGame.dll
+H:\Infomatik\Abfragen\Abfragen\GuessingGame\obj\Debug\net6.0\refint\GuessingGame.dll
+H:\Infomatik\Abfragen\Abfragen\GuessingGame\obj\Debug\net6.0\GuessingGame.pdb
+H:\Infomatik\Abfragen\Abfragen\GuessingGame\obj\Debug\net6.0\GuessingGame.genruntimeconfig.cache
+H:\Infomatik\Abfragen\Abfragen\GuessingGame\obj\Debug\net6.0\ref\GuessingGame.dll

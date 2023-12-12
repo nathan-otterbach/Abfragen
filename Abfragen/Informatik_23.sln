@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Abfrage_B\Calculator.csproj", "{321EB1C0-C74E-4279-9B5B-9250C4A67E8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessingGame", "GuessingGame\GuessingGame.csproj", "{7A8B42A4-7600-4D3A-B868-9AC3AF4941F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{321EB1C0-C74E-4279-9B5B-9250C4A67E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{321EB1C0-C74E-4279-9B5B-9250C4A67E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{321EB1C0-C74E-4279-9B5B-9250C4A67E8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A8B42A4-7600-4D3A-B868-9AC3AF4941F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A8B42A4-7600-4D3A-B868-9AC3AF4941F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A8B42A4-7600-4D3A-B868-9AC3AF4941F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A8B42A4-7600-4D3A-B868-9AC3AF4941F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
