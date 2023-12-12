@@ -10,8 +10,9 @@
         int Modulo(decimal a, decimal b);           // Modulo operation
         decimal Logarithm(decimal a, decimal b);    // Logarithm operation
         decimal Power(decimal a, decimal b);        // Exponentiation operation
-        bool IsPrime(ulong number);                  // Check if number is prime
+        bool IsPrime(ulong number);                 // Check if number is prime
         string GetMonth(byte number);               // Get month name based on number
+        double GetRabatt(byte number);              // Get costumer discount based on costumer status
     }
 
     // Class implementing the calculator operations
@@ -139,6 +140,20 @@
                 case 11: return "November";
                 case 12: return "December";
                 default: return "Error";
+            }
+        }
+
+        public double GetRabatt(byte costumer_status)
+        {
+            switch (costumer_status)
+            {
+                case 1: return 0.09;
+                case 2: return 0.05;
+                case 3: 
+                case 4: return 0;
+                default: Console.WriteLine("Invalid costumer status");
+                         Console.WriteLine(Environment.NewLine);
+                         return -1;
             }
         }
     }

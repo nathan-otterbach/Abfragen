@@ -1,4 +1,6 @@
-﻿namespace Calculator
+﻿using System;
+
+namespace Calculator
 {
     internal class Program
     {
@@ -12,11 +14,12 @@
                 Console.WriteLine("1. Perform calculations");
                 Console.WriteLine("2. Check if a number is prime");
                 Console.WriteLine("3. Get month name based on a number");
+                Console.WriteLine("4. Get discount based on costumer status");
                 Console.WriteLine("0. Exit");
                 Console.WriteLine(Environment.NewLine);
 
                 int choice;
-                while (!int.TryParse(Console.ReadLine(), out choice) || choice < 0 || choice > 3)
+                while (!int.TryParse(Console.ReadLine(), out choice) || choice < 0 || choice > 4)
                 {
                     Console.WriteLine("Invalid choice. Please enter a valid option.");
                 }
@@ -32,6 +35,9 @@
                     case 3:
                         GetMonth(calc);
                         break;
+                    case 4:
+                        GetRabatt(calc); 
+                        break;
                     case 0:
                         return;
                 }
@@ -44,6 +50,7 @@
 
             while (true)
             {
+                Console.WriteLine("Enter an operator: ");
                 operationChoice = Console.ReadLine()?.ToLower();
                 if (IsValidOperation(operationChoice))
                 {
@@ -135,7 +142,6 @@
             }
         }
 
-
         private static void CheckPrime(ICalculator calculator)
         {
             // Check if a number is prime based on user input
@@ -173,6 +179,26 @@
 
             Console.WriteLine($"Month for number {number}: {month}");
             Console.WriteLine(Environment.NewLine);
+        }
+
+        private static void GetRabatt(ICalculator calculator)
+        {
+            // Get the costumer status based on user input
+            // Example:
+            IUserInput<byte> byteInput = new UserInput<byte>(
+                () => byte.Parse(Console.ReadLine()), // Parsing method for uint input
+                "Enter a byte value: ",
+                "Error while parsing unsigned integer input"
+            );
+
+            byte number = byteInput.GetValidInput();
+
+            double rabatt = calculator.GetRabatt(number);
+            if (rabatt >= 0) 
+            {
+                Console.WriteLine($"With costumer status {number}: {rabatt}");
+                Console.WriteLine(Environment.NewLine);
+            }
         }
     }
 }
