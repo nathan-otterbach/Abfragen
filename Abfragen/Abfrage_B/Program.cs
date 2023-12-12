@@ -36,7 +36,7 @@ namespace Calculator
                         GetMonth(calc);
                         break;
                     case 4:
-                        GetRabatt(calc); 
+                        GetRabatt(calc);
                         break;
                     case 0:
                         return;
