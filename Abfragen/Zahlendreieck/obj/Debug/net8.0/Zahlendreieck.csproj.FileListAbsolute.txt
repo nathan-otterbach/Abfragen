@@ -1,0 +1,15 @@
+H:\Infomatik\Abfragen\Abfragen\Zahlendreieck\bin\Debug\net8.0\Zahlendreieck.exe
+H:\Infomatik\Abfragen\Abfragen\Zahlendreieck\bin\Debug\net8.0\Zahlendreieck.deps.json
+H:\Infomatik\Abfragen\Abfragen\Zahlendreieck\bin\Debug\net8.0\Zahlendreieck.runtimeconfig.json
+H:\Infomatik\Abfragen\Abfragen\Zahlendreieck\bin\Debug\net8.0\Zahlendreieck.dll
+H:\Infomatik\Abfragen\Abfragen\Zahlendreieck\bin\Debug\net8.0\Zahlendreieck.pdb
+H:\Infomatik\Abfragen\Abfragen\Zahlendreieck\obj\Debug\net8.0\Zahlendreieck.GeneratedMSBuildEditorConfig.editorconfig
+H:\Infomatik\Abfragen\Abfragen\Zahlendreieck\obj\Debug\net8.0\Zahlendreieck.AssemblyInfoInputs.cache
+H:\Infomatik\Abfragen\Abfragen\Zahlendreieck\obj\Debug\net8.0\Zahlendreieck.AssemblyInfo.cs
+H:\Infomatik\Abfragen\Abfragen\Zahlendreieck\obj\Debug\net8.0\Zahlendreieck.csproj.CoreCompileInputs.cache
+H:\Infomatik\Abfragen\Abfragen\Zahlendreieck\obj\Debug\net8.0\Zahlendreieck.sourcelink.json
+H:\Infomatik\Abfragen\Abfragen\Zahlendreieck\obj\Debug\net8.0\Zahlendreieck.dll
+H:\Infomatik\Abfragen\Abfragen\Zahlendreieck\obj\Debug\net8.0\refint\Zahlendreieck.dll
+H:\Infomatik\Abfragen\Abfragen\Zahlendreieck\obj\Debug\net8.0\Zahlendreieck.pdb
+H:\Infomatik\Abfragen\Abfragen\Zahlendreieck\obj\Debug\net8.0\Zahlendreieck.genruntimeconfig.cache
+H:\Infomatik\Abfragen\Abfragen\Zahlendreieck\obj\Debug\net8.0\ref\Zahlendreieck.dll

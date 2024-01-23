@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Pharmakonzern")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Zahlendreieck")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a777f0d98ddfaf88176924ca49e68ee66afe77f")]
-[assembly: System.Reflection.AssemblyProductAttribute("Pharmakonzern")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Pharmakonzern")]
+[assembly: System.Reflection.AssemblyProductAttribute("Zahlendreieck")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Zahlendreieck")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Von der MSBuild WriteCodeFragment-Klasse generiert.
