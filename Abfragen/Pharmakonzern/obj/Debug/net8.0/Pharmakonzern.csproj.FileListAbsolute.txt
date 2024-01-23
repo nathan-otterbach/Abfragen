@@ -1,0 +1,15 @@
+H:\Infomatik\Abfragen\Abfragen\Pharmakonzern\bin\Debug\net8.0\Pharmakonzern.exe
+H:\Infomatik\Abfragen\Abfragen\Pharmakonzern\bin\Debug\net8.0\Pharmakonzern.deps.json
+H:\Infomatik\Abfragen\Abfragen\Pharmakonzern\bin\Debug\net8.0\Pharmakonzern.runtimeconfig.json
+H:\Infomatik\Abfragen\Abfragen\Pharmakonzern\bin\Debug\net8.0\Pharmakonzern.dll
+H:\Infomatik\Abfragen\Abfragen\Pharmakonzern\bin\Debug\net8.0\Pharmakonzern.pdb
+H:\Infomatik\Abfragen\Abfragen\Pharmakonzern\obj\Debug\net8.0\Pharmakonzern.GeneratedMSBuildEditorConfig.editorconfig
+H:\Infomatik\Abfragen\Abfragen\Pharmakonzern\obj\Debug\net8.0\Pharmakonzern.AssemblyInfoInputs.cache
+H:\Infomatik\Abfragen\Abfragen\Pharmakonzern\obj\Debug\net8.0\Pharmakonzern.AssemblyInfo.cs
+H:\Infomatik\Abfragen\Abfragen\Pharmakonzern\obj\Debug\net8.0\Pharmakonzern.csproj.CoreCompileInputs.cache
+H:\Infomatik\Abfragen\Abfragen\Pharmakonzern\obj\Debug\net8.0\Pharmakonzern.sourcelink.json
+H:\Infomatik\Abfragen\Abfragen\Pharmakonzern\obj\Debug\net8.0\Pharmakonzern.dll
+H:\Infomatik\Abfragen\Abfragen\Pharmakonzern\obj\Debug\net8.0\refint\Pharmakonzern.dll
+H:\Infomatik\Abfragen\Abfragen\Pharmakonzern\obj\Debug\net8.0\Pharmakonzern.pdb
+H:\Infomatik\Abfragen\Abfragen\Pharmakonzern\obj\Debug\net8.0\Pharmakonzern.genruntimeconfig.cache
+H:\Infomatik\Abfragen\Abfragen\Pharmakonzern\obj\Debug\net8.0\ref\Pharmakonzern.dll

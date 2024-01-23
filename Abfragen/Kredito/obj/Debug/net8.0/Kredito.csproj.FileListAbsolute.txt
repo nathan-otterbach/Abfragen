@@ -1,0 +1,15 @@
+H:\Infomatik\Abfragen\Abfragen\Kredito\bin\Debug\net8.0\Kredito.exe
+H:\Infomatik\Abfragen\Abfragen\Kredito\bin\Debug\net8.0\Kredito.deps.json
+H:\Infomatik\Abfragen\Abfragen\Kredito\bin\Debug\net8.0\Kredito.runtimeconfig.json
+H:\Infomatik\Abfragen\Abfragen\Kredito\bin\Debug\net8.0\Kredito.dll
+H:\Infomatik\Abfragen\Abfragen\Kredito\bin\Debug\net8.0\Kredito.pdb
+H:\Infomatik\Abfragen\Abfragen\Kredito\obj\Debug\net8.0\Kredito.GeneratedMSBuildEditorConfig.editorconfig
+H:\Infomatik\Abfragen\Abfragen\Kredito\obj\Debug\net8.0\Kredito.AssemblyInfoInputs.cache
+H:\Infomatik\Abfragen\Abfragen\Kredito\obj\Debug\net8.0\Kredito.AssemblyInfo.cs
+H:\Infomatik\Abfragen\Abfragen\Kredito\obj\Debug\net8.0\Kredito.csproj.CoreCompileInputs.cache
+H:\Infomatik\Abfragen\Abfragen\Kredito\obj\Debug\net8.0\Kredito.sourcelink.json
+H:\Infomatik\Abfragen\Abfragen\Kredito\obj\Debug\net8.0\Kredito.dll
+H:\Infomatik\Abfragen\Abfragen\Kredito\obj\Debug\net8.0\refint\Kredito.dll
+H:\Infomatik\Abfragen\Abfragen\Kredito\obj\Debug\net8.0\Kredito.pdb
+H:\Infomatik\Abfragen\Abfragen\Kredito\obj\Debug\net8.0\Kredito.genruntimeconfig.cache
+H:\Infomatik\Abfragen\Abfragen\Kredito\obj\Debug\net8.0\ref\Kredito.dll
