@@ -1,17 +1,19 @@
-﻿internal class Program
+﻿public class Program
 {
-    private static void Main(string[] args)
+    public static void Main(string[] args)
     {
+        // Set the size of the triangle
         int n = 20;
-        int[,] zahlen_dreieck = new int[n+1, n+1];
 
-        for (int i = 1; i < zahlen_dreieck.GetLength(0); i++)
+        // Loop through the rows
+        for (int i = 1; i <= n; i++)
         {
-            for (int j = 1; j < zahlen_dreieck.GetLength(1); j++)
+            // Loop through the columns
+            for (int j = 1; j <= i; j++)
             {
-                zahlen_dreieck[i, j] = i * j;
-                Console.WriteLine($"{zahlen_dreieck[i, j]}");
+                Console.Write($"{i * j, 4}"); // => ensure each number is printed in a 4-character wide space
             }
+            // Move to the next line after completing a row
             Console.WriteLine();
         }
     }
