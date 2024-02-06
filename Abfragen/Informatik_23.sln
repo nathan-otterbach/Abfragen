@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Abfrage_B\Cal
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuessingGame", "GuessingGame\GuessingGame.csproj", "{7A8B42A4-7600-4D3A-B868-9AC3AF4941F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pharmakonzern", "Pharmakonzern\Pharmakonzern.csproj", "{218CEF9D-E80F-4AC6-86F4-2E78C3E94D87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pharmakonzern", "Pharmakonzern\Pharmakonzern.csproj", "{218CEF9D-E80F-4AC6-86F4-2E78C3E94D87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kredito", "Kredito\Kredito.csproj", "{23D55334-C6FD-4909-A0F0-53A7669FE265}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kredito", "Kredito\Kredito.csproj", "{23D55334-C6FD-4909-A0F0-53A7669FE265}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zahlendreieck", "Zahlendreieck\Zahlendreieck.csproj", "{82AE33C4-BB53-4B3C-8EEC-85C287F7E05F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zahlendreieck", "Zahlendreieck\Zahlendreieck.csproj", "{82AE33C4-BB53-4B3C-8EEC-85C287F7E05F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formen", "Formel\Formen.csproj", "{151C0A67-602F-4F14-B8C4-7D3A59AF5B45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{82AE33C4-BB53-4B3C-8EEC-85C287F7E05F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82AE33C4-BB53-4B3C-8EEC-85C287F7E05F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82AE33C4-BB53-4B3C-8EEC-85C287F7E05F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{151C0A67-602F-4F14-B8C4-7D3A59AF5B45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{151C0A67-602F-4F14-B8C4-7D3A59AF5B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{151C0A67-602F-4F14-B8C4-7D3A59AF5B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{151C0A67-602F-4F14-B8C4-7D3A59AF5B45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

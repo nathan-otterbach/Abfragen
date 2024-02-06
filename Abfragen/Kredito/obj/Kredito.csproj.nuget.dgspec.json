@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bitwise\\source\\repos\\Abfragen\\Abfragen\\Kredito\\Kredito.csproj": {}
+    "C:\\Users\\Nathan\\source\\repos\\Abfragen\\Abfragen\\Kredito\\Kredito.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bitwise\\source\\repos\\Abfragen\\Abfragen\\Kredito\\Kredito.csproj": {
+    "C:\\Users\\Nathan\\source\\repos\\Abfragen\\Abfragen\\Kredito\\Kredito.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bitwise\\source\\repos\\Abfragen\\Abfragen\\Kredito\\Kredito.csproj",
+        "projectUniqueName": "C:\\Users\\Nathan\\source\\repos\\Abfragen\\Abfragen\\Kredito\\Kredito.csproj",
         "projectName": "Kredito",
-        "projectPath": "C:\\Users\\bitwise\\source\\repos\\Abfragen\\Abfragen\\Kredito\\Kredito.csproj",
-        "packagesPath": "C:\\Users\\bitwise\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bitwise\\source\\repos\\Abfragen\\Abfragen\\Kredito\\obj\\",
+        "projectPath": "C:\\Users\\Nathan\\source\\repos\\Abfragen\\Abfragen\\Kredito\\Kredito.csproj",
+        "packagesPath": "C:\\Users\\Nathan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nathan\\source\\repos\\Abfragen\\Abfragen\\Kredito\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\bitwise\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

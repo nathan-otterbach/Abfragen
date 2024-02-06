@@ -1,0 +1,15 @@
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Formel\bin\Debug\net8.0\Formel.exe
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Formel\bin\Debug\net8.0\Formel.deps.json
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Formel\bin\Debug\net8.0\Formel.runtimeconfig.json
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Formel\bin\Debug\net8.0\Formel.dll
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Formel\bin\Debug\net8.0\Formel.pdb
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Formel\obj\Debug\net8.0\Formel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Formel\obj\Debug\net8.0\Formel.AssemblyInfoInputs.cache
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Formel\obj\Debug\net8.0\Formel.AssemblyInfo.cs
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Formel\obj\Debug\net8.0\Formel.csproj.CoreCompileInputs.cache
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Formel\obj\Debug\net8.0\Formel.sourcelink.json
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Formel\obj\Debug\net8.0\Formel.dll
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Formel\obj\Debug\net8.0\refint\Formel.dll
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Formel\obj\Debug\net8.0\Formel.pdb
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Formel\obj\Debug\net8.0\Formel.genruntimeconfig.cache
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Formel\obj\Debug\net8.0\ref\Formel.dll
