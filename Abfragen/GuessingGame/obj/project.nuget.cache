@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "w+1I7NnbAAj/hornaZKuzjbt+95lP4bKes8aqJ57ghK16G+r+VgJed6QJ4zZ5GI56Epgu4ENsM96RHnGzK4tUA==",
+  "dgSpecHash": "QtqaH2G23MqOlK3n0RNKmutVbfBh+dzPXhmKg7eNAwmBJZfA0UKF/igomRZFtiDdrTBiE1iIxUplF+xYEZIOHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nathan\\source\\repos\\Abfragen\\Abfragen\\GuessingGame\\GuessingGame.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "H:\\Infomatik\\Abfragen\\Abfragen\\GuessingGame\\GuessingGame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\OtterbachN1\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\OtterbachN1\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\OtterbachN1\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\OtterbachN1\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+  ],
   "logs": []
 }

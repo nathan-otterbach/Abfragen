@@ -34,7 +34,7 @@ namespace Formen
             set { checked { _y = value; } }
         }
 
-        public double get_distance(Point p)
+        public double getDistance(Point p)
         {
             checked
             {

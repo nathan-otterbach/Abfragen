@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nathan\\source\\repos\\Abfragen\\Abfragen\\Pharmakonzern\\Pharmakonzern.csproj": {}
+    "H:\\Infomatik\\Abfragen\\Abfragen\\Pharmakonzern\\Pharmakonzern.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nathan\\source\\repos\\Abfragen\\Abfragen\\Pharmakonzern\\Pharmakonzern.csproj": {
+    "H:\\Infomatik\\Abfragen\\Abfragen\\Pharmakonzern\\Pharmakonzern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nathan\\source\\repos\\Abfragen\\Abfragen\\Pharmakonzern\\Pharmakonzern.csproj",
+        "projectUniqueName": "H:\\Infomatik\\Abfragen\\Abfragen\\Pharmakonzern\\Pharmakonzern.csproj",
         "projectName": "Pharmakonzern",
-        "projectPath": "C:\\Users\\Nathan\\source\\repos\\Abfragen\\Abfragen\\Pharmakonzern\\Pharmakonzern.csproj",
-        "packagesPath": "C:\\Users\\Nathan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nathan\\source\\repos\\Abfragen\\Abfragen\\Pharmakonzern\\obj\\",
+        "projectPath": "H:\\Infomatik\\Abfragen\\Abfragen\\Pharmakonzern\\Pharmakonzern.csproj",
+        "packagesPath": "C:\\Users\\OtterbachN1\\.nuget\\packages\\",
+        "outputPath": "H:\\Infomatik\\Abfragen\\Abfragen\\Pharmakonzern\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Nathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\OtterbachN1\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

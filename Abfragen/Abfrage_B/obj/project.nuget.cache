@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "dfXBNX2S5QIbuBYgLG/t6ntbuBYFbVGGjqGSS9buVaMgspVil3Q+yOU4NGqXa5nY832/IAiNppdMg3G42y+2hw==",
+  "dgSpecHash": "pRi30wLXbk+M3kiRUrYeYNa6is/U2ZFzj1Sw/EGea9Gq+VP6hhXnwlZVn7a++ZfhAMU49cJ2GPHBWBXRKLfPlA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nathan\\source\\repos\\Abfragen\\Abfragen\\Abfrage_B\\Calculator.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "H:\\Infomatik\\Abfragen\\Abfragen\\Abfrage_B\\Calculator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\OtterbachN1\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\OtterbachN1\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\OtterbachN1\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\OtterbachN1\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+  ],
   "logs": []
 }
