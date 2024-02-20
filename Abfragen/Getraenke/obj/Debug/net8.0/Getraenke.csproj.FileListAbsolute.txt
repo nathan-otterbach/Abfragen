@@ -1,0 +1,15 @@
+H:\Infomatik\Abfragen\Abfragen\Getraenke\bin\Debug\net8.0\Getraenke.exe
+H:\Infomatik\Abfragen\Abfragen\Getraenke\bin\Debug\net8.0\Getraenke.deps.json
+H:\Infomatik\Abfragen\Abfragen\Getraenke\bin\Debug\net8.0\Getraenke.runtimeconfig.json
+H:\Infomatik\Abfragen\Abfragen\Getraenke\bin\Debug\net8.0\Getraenke.dll
+H:\Infomatik\Abfragen\Abfragen\Getraenke\bin\Debug\net8.0\Getraenke.pdb
+H:\Infomatik\Abfragen\Abfragen\Getraenke\obj\Debug\net8.0\Getraenke.GeneratedMSBuildEditorConfig.editorconfig
+H:\Infomatik\Abfragen\Abfragen\Getraenke\obj\Debug\net8.0\Getraenke.AssemblyInfoInputs.cache
+H:\Infomatik\Abfragen\Abfragen\Getraenke\obj\Debug\net8.0\Getraenke.AssemblyInfo.cs
+H:\Infomatik\Abfragen\Abfragen\Getraenke\obj\Debug\net8.0\Getraenke.csproj.CoreCompileInputs.cache
+H:\Infomatik\Abfragen\Abfragen\Getraenke\obj\Debug\net8.0\Getraenke.sourcelink.json
+H:\Infomatik\Abfragen\Abfragen\Getraenke\obj\Debug\net8.0\Getraenke.dll
+H:\Infomatik\Abfragen\Abfragen\Getraenke\obj\Debug\net8.0\refint\Getraenke.dll
+H:\Infomatik\Abfragen\Abfragen\Getraenke\obj\Debug\net8.0\Getraenke.pdb
+H:\Infomatik\Abfragen\Abfragen\Getraenke\obj\Debug\net8.0\Getraenke.genruntimeconfig.cache
+H:\Infomatik\Abfragen\Abfragen\Getraenke\obj\Debug\net8.0\ref\Getraenke.dll

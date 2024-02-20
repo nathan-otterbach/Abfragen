@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kredito", "Kredito\Kredito.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zahlendreieck", "Zahlendreieck\Zahlendreieck.csproj", "{82AE33C4-BB53-4B3C-8EEC-85C287F7E05F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formen", "Formel\Formen.csproj", "{151C0A67-602F-4F14-B8C4-7D3A59AF5B45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Formen", "Formel\Formen.csproj", "{151C0A67-602F-4F14-B8C4-7D3A59AF5B45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Getraenke", "Getraenke\Getraenke.csproj", "{DE3CB28E-8B2E-4958-AB7F-E007DB2CA139}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{151C0A67-602F-4F14-B8C4-7D3A59AF5B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{151C0A67-602F-4F14-B8C4-7D3A59AF5B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{151C0A67-602F-4F14-B8C4-7D3A59AF5B45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE3CB28E-8B2E-4958-AB7F-E007DB2CA139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE3CB28E-8B2E-4958-AB7F-E007DB2CA139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE3CB28E-8B2E-4958-AB7F-E007DB2CA139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE3CB28E-8B2E-4958-AB7F-E007DB2CA139}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
