@@ -1,0 +1,5 @@
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Endnoten\obj\Debug\net8.0\Endnoten.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Endnoten\obj\Debug\net8.0\Endnoten.AssemblyInfoInputs.cache
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Endnoten\obj\Debug\net8.0\Endnoten.AssemblyInfo.cs
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Endnoten\obj\Debug\net8.0\Endnoten.csproj.CoreCompileInputs.cache
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Endnoten\obj\Debug\net8.0\Endnoten.sourcelink.json
