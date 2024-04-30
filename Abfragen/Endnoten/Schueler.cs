@@ -25,15 +25,21 @@
             Faecher[3] = new Fach(Belegungsplan.faecher[3], 1, 1.1f, 1.2f);
 
             float sum = 0;
+            uint count = 0;
             for (int i = 0; i < Faecher.Length; i++)
             {
                 Console.WriteLine(Faecher[i].Name + ": " + Faecher[i].getDSN());
                 sum += Faecher[i].getDSN();
+
+                if (Faecher[i].getDSN() > 4)
+                {
+                    count++;
+                }
             }
 
             Console.WriteLine("Durchschnittsnote: " + (int)(sum / Faecher.Length));
 
-            if ((int)(sum / Faecher.Length) > 4)
+            if ((int)(sum / Faecher.Length) > 4 || count > 2)
             {
                 Console.WriteLine("Nicht versetzt");
             }

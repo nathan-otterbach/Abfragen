@@ -3,3 +3,13 @@ C:\Users\Nathan\source\repos\Abfragen\Abfragen\Endnoten\obj\Debug\net8.0\Endnote
 C:\Users\Nathan\source\repos\Abfragen\Abfragen\Endnoten\obj\Debug\net8.0\Endnoten.AssemblyInfo.cs
 C:\Users\Nathan\source\repos\Abfragen\Abfragen\Endnoten\obj\Debug\net8.0\Endnoten.csproj.CoreCompileInputs.cache
 C:\Users\Nathan\source\repos\Abfragen\Abfragen\Endnoten\obj\Debug\net8.0\Endnoten.sourcelink.json
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Endnoten\bin\Debug\net8.0\Endnoten.exe
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Endnoten\bin\Debug\net8.0\Endnoten.deps.json
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Endnoten\bin\Debug\net8.0\Endnoten.runtimeconfig.json
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Endnoten\bin\Debug\net8.0\Endnoten.dll
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Endnoten\bin\Debug\net8.0\Endnoten.pdb
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Endnoten\obj\Debug\net8.0\Endnoten.dll
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Endnoten\obj\Debug\net8.0\refint\Endnoten.dll
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Endnoten\obj\Debug\net8.0\Endnoten.pdb
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Endnoten\obj\Debug\net8.0\Endnoten.genruntimeconfig.cache
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Endnoten\obj\Debug\net8.0\ref\Endnoten.dll

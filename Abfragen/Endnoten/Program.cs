@@ -1,7 +1,10 @@
-﻿internal class Program
+﻿using Endnoten;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Schueler s = new Schueler();
+        s.makeSchuljahr();
     }
 }
