@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Nathan\\source\\repos\\Abfragen\\Abfragen\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65107456-7293-4396-A2BD-C96AAEBD2101}|Vererbung\\Vererbung.csproj|c:\\users\\nathan\\source\\repos\\abfragen\\abfragen\\vererbung\\rawmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65107456-7293-4396-A2BD-C96AAEBD2101}|Vererbung\\Vererbung.csproj|solutionrelative:vererbung\\rawmaterial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65107456-7293-4396-A2BD-C96AAEBD2101}|Vererbung\\Vererbung.csproj|c:\\users\\nathan\\source\\repos\\abfragen\\abfragen\\vererbung\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65107456-7293-4396-A2BD-C96AAEBD2101}|Vererbung\\Vererbung.csproj|solutionrelative:vererbung\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65107456-7293-4396-A2BD-C96AAEBD2101}|Vererbung\\Vererbung.csproj|c:\\users\\nathan\\source\\repos\\abfragen\\abfragen\\vererbung\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65107456-7293-4396-A2BD-C96AAEBD2101}|Vererbung\\Vererbung.csproj|solutionrelative:vererbung\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RawMaterial.cs",
+              "DocumentMoniker": "C:\\Users\\Nathan\\source\\repos\\Abfragen\\Abfragen\\Vererbung\\RawMaterial.cs",
+              "RelativeDocumentMoniker": "Vererbung\\RawMaterial.cs",
+              "ToolTip": "C:\\Users\\Nathan\\source\\repos\\Abfragen\\Abfragen\\Vererbung\\RawMaterial.cs",
+              "RelativeToolTip": "Vererbung\\RawMaterial.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T13:13:44.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Material.cs",
+              "DocumentMoniker": "C:\\Users\\Nathan\\source\\repos\\Abfragen\\Abfragen\\Vererbung\\Material.cs",
+              "RelativeDocumentMoniker": "Vererbung\\Material.cs",
+              "ToolTip": "C:\\Users\\Nathan\\source\\repos\\Abfragen\\Abfragen\\Vererbung\\Material.cs",
+              "RelativeToolTip": "Vererbung\\Material.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwBMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T13:10:07.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nathan\\source\\repos\\Abfragen\\Abfragen\\Vererbung\\Program.cs",
+              "RelativeDocumentMoniker": "Vererbung\\Program.cs",
+              "ToolTip": "C:\\Users\\Nathan\\source\\repos\\Abfragen\\Abfragen\\Vererbung\\Program.cs",
+              "RelativeToolTip": "Vererbung\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T13:09:30.663Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
