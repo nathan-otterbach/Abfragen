@@ -1,12 +1,14 @@
 ﻿namespace Formen
 {
-    public class Dreieck
+    public class Dreieck : Form
     {
-        private decimal _seiteA;
-        private decimal _seiteB;
-        private decimal _seiteC;
+        private float _seiteA;
+        private float _seiteB;
+        private float _seiteC;
 
-        public Dreieck(decimal seiteA, decimal seiteB, decimal seiteC)
+        public Dreieck() { }
+
+        public Dreieck(float seiteA, float seiteB, float seiteC) : this()
         {
             checked
             {
@@ -16,36 +18,34 @@
             }
         }
 
-        public Dreieck() { }
-
-        public decimal SeiteA
+        public float SeiteA
         {
             get { return _seiteA; }
             set { checked { _seiteA = value; } }
         }
 
-        public decimal SeiteB
+        public float SeiteB
         {
             get { return _seiteB; }
             set { checked { _seiteB = value; } }
         }
-
-        public decimal SeiteC
+        
+        public float SeiteC
         {
             get { return _seiteC; }
             set { checked { _seiteC = value; } }
         }
 
-        public decimal berechne_flaeche()
+        public override float berechne_flaeche()
         {
             checked
             {
-                decimal s = berechne_umfang() / 2;
-                return (decimal)Math.Sqrt((double)(s * (s - _seiteA) * (s - _seiteB) * (s - _seiteC)));
+                float s = berechne_umfang() / 2;
+                return (float)Math.Sqrt((s * (s - _seiteA) * (s - _seiteB) * (s - _seiteC)));
             }
         }
 
-        public decimal berechne_umfang()
+        public override float berechne_umfang()
         {
             checked
             {

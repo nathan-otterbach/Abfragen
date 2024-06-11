@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Endnoten")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+488aeb8c89912060ef886b8b7e6b30d38d0625cb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+426ec401d025299f970ad2bdb58568bd3c0155eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Endnoten")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Endnoten")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

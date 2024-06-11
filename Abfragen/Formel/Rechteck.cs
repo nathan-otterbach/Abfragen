@@ -1,42 +1,47 @@
 ﻿namespace Formen
 {
-    public class Rechteck : Point
+    public class Rechteck : Form
     {
-        private decimal _length;
-        private decimal _width;
+        private float _seiteA;
+        private float _seiteB;
 
-        public Rechteck(Point p1, Point p2) 
+        public Rechteck() { }
+
+        public Rechteck(float seiteA, float seiteB) :this()
         {
             checked
             {
-                _length = p2.X - p1.X;
-                _width = p2.Y - p1.Y;
+                _seiteA = seiteA;
+                _seiteB = seiteB;
             }
         }
 
-        public Point getUpperLeft()
+        public float SeiteA
         {
-            return new Point(X, Y);
+            get { return _seiteA; }
+            set { checked { _seiteA = value; } }
         }
 
-        public Point getUpperRight()
+        public float SeiteB
         {
-            return new Point(X + _length, Y);
+            get { return _seiteB; }
+            set { checked { _seiteB = value; } }
         }
 
-        public Point getLowerLeft()
+        public override float berechne_flaeche()
         {
-            return new Point(X, Y + _width);
+            checked
+            {
+                return _seiteA * _seiteB;
+            }
         }
 
-        public Point getLowerRight()
+        public override float berechne_umfang()
         {
-            return new Point(X + _length, Y + _width);
-        }
-
-        public double getDiagonal()
-        {
-            return Math.Sqrt((double)(_length * _length + _width * _width));
+            checked
+            {
+                return 2 * (_seiteA + _seiteB);
+            }
         }
     }
 }
