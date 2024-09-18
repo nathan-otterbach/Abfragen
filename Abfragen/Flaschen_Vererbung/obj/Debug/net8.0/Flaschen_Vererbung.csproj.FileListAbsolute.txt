@@ -1,0 +1,15 @@
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Flaschen_Vererbung\bin\Debug\net8.0\Flaschen_Vererbung.exe
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Flaschen_Vererbung\bin\Debug\net8.0\Flaschen_Vererbung.deps.json
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Flaschen_Vererbung\bin\Debug\net8.0\Flaschen_Vererbung.runtimeconfig.json
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Flaschen_Vererbung\bin\Debug\net8.0\Flaschen_Vererbung.dll
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Flaschen_Vererbung\bin\Debug\net8.0\Flaschen_Vererbung.pdb
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Flaschen_Vererbung\obj\Debug\net8.0\Flaschen_Vererbung.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Flaschen_Vererbung\obj\Debug\net8.0\Flaschen_Vererbung.AssemblyInfoInputs.cache
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Flaschen_Vererbung\obj\Debug\net8.0\Flaschen_Vererbung.AssemblyInfo.cs
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Flaschen_Vererbung\obj\Debug\net8.0\Flaschen_Vererbung.csproj.CoreCompileInputs.cache
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Flaschen_Vererbung\obj\Debug\net8.0\Flaschen_Vererbung.sourcelink.json
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Flaschen_Vererbung\obj\Debug\net8.0\Flaschen_Vererbung.dll
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Flaschen_Vererbung\obj\Debug\net8.0\refint\Flaschen_Vererbung.dll
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Flaschen_Vererbung\obj\Debug\net8.0\Flaschen_Vererbung.pdb
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Flaschen_Vererbung\obj\Debug\net8.0\Flaschen_Vererbung.genruntimeconfig.cache
+C:\Users\Nathan\source\repos\Abfragen\Abfragen\Flaschen_Vererbung\obj\Debug\net8.0\ref\Flaschen_Vererbung.dll

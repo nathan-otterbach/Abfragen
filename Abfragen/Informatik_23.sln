@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Getraenke", "Getraenke\Getr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Endnoten", "Endnoten\Endnoten.csproj", "{28271606-A4AA-4FAD-829F-C3B537B5F78D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vererbung", "Vererbung\Vererbung.csproj", "{65107456-7293-4396-A2BD-C96AAEBD2101}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vererbung", "Vererbung\Vererbung.csproj", "{65107456-7293-4396-A2BD-C96AAEBD2101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flaschen_Vererbung", "Flaschen_Vererbung\Flaschen_Vererbung.csproj", "{76A58FE8-F824-405B-9659-9E9958E44F01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{65107456-7293-4396-A2BD-C96AAEBD2101}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65107456-7293-4396-A2BD-C96AAEBD2101}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65107456-7293-4396-A2BD-C96AAEBD2101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76A58FE8-F824-405B-9659-9E9958E44F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76A58FE8-F824-405B-9659-9E9958E44F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76A58FE8-F824-405B-9659-9E9958E44F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76A58FE8-F824-405B-9659-9E9958E44F01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
